@@ -1,9 +1,9 @@
 import React from 'react'
 import {Switch, Route} from 'react-router-dom'
 import App from '../App'
-import Length from './components/Length'
-import Time from './components/Time'
-import Volume from './components/Volume'
+import Length from './Length'
+import Time from './Time'
+import Volume from './Volume'
 
 
 
