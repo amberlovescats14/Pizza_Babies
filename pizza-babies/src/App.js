@@ -1,13 +1,20 @@
-import React from 'react';
+import React , { Component } from 'react';
 import './App.css';
+import Router from '../src/components/Router'
+import Header from './components/Header'
+import {BrowserRouter, Route} from 'react-router-dom'
 
-function App() {
+
+class App extends Component {
+  render(){
   return (
-    <div className="App">
-    <h1>Pizza Babies
-    </h1>
-    </div>
+    <BrowserRouter>
+    <Header/>
+    <Router/>
+    
+  </BrowserRouter>
   );
+  }
 }
 
 export default App;
