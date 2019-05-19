@@ -9,9 +9,21 @@ export default class App extends Component {
   render(){
   return (
     <BrowserRouter>
+    <h1>hello</h1>
     <Header/>
     <Router/>
     
     </BrowserRouter>
   );
+<<<<<<< HEAD
   }}
+=======
+  }
+}
+
+
+
+
+    
+
+>>>>>>> 03635acc48d0c846ef9eebb8fe8584e1dab510a1
