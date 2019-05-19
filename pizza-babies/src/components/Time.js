@@ -3,7 +3,7 @@ const containerStyle = {
   boxShadow: '0 0 4px 1px rgba(0, 0, 0, 0.3)',
   width: '50%',
   margin: 'auto',
-  height: '100px'
+  height: '200px'
 }
 const styleMinutes = {
   borderBottom: '3px solid red',
@@ -36,7 +36,7 @@ export default class Time extends Component {
     let value = e.target.value;
     let equation = Number(value) * 60
     console.log(equation)
-    this.setState({ minuteState: e.target.value  , typingState: equation});
+    this.setState({ hourState: value, minuteState: e.target.value  , typingState: equation});
     // let equation = Number(60) / Number(value);
     // this.setState({ typingState: e.target.value, hourState: equation  });
   }
@@ -45,6 +45,9 @@ export default class Time extends Component {
   render() {
     
     return (
+      <React.Fragment >
+      <p style={{textAlign: 'center', padding:'20px', fontSize:'10vh', fontFamily: 'arial'}}>Time Conversion</p>
+
       <div id="container" style={containerStyle}>
         <div className="calculator" >
         <div className="minutes" style={styleMinutes}>
@@ -57,6 +60,7 @@ export default class Time extends Component {
         </div>
         </div>
       </div>
+      </React.Fragment>
     )
   }
 
