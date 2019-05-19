@@ -9,9 +9,11 @@ export default class App extends Component {
   render(){
   return (
     <BrowserRouter>
+    <div>
     <h1>hello</h1>
     <Header/>
     <Router/>
+    </div>
     
   </BrowserRouter>
   );

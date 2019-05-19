@@ -1,8 +1,8 @@
 import React from "react";
 import "./header.css";
 import { Link } from 'react-router-dom';
-import Router from './Router'
-import App from '../App'
+// import Router from './Router'
+// import App from '../App'
 
 
 const Header = () => (
