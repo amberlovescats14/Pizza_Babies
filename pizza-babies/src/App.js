@@ -1,15 +1,16 @@
 import React , { Component } from 'react';
 import './App.css';
 import Header from './components/Header'
-import {BrowserRouter} from 'react-router-dom'
-
+import Router from './components/Router'
+import {BrowserRouter, Route} from 'react-router-dom'
 
 export default class App extends Component {
     render(){
     return (
       <div>
         <BrowserRouter>
-         <Header/>
+         <Header />
+         <Router/>
 
         </BrowserRouter>
 

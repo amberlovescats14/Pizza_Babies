@@ -12,12 +12,10 @@ import Volume from './Volume'
 export default function Router() {
   return (
     <Switch>
-      <Route exact path="/" component={App}/>
+      {/* <Route exact path="/" component={App}/> */}
       <Route  path="/Length" component={Length}/>
       <Route  path="/Time" component={Time}/>
       <Route  path="/Volume" component={Volume}/>
-
-
     </Switch>
   )
 }
