@@ -10,4 +10,4 @@ export class Length extends Component {
   }
 }
 
-export default Length
+export default Length;
