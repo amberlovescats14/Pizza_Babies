@@ -35,7 +35,6 @@ export default class Time extends Component {
   hoursToMinutes = (e) => {
     let value = e.target.value;
     let equation = Number(value) * 60
-    console.log(equation)
     this.setState({ hourState: value, minuteState: e.target.value  , typingState: equation});
     // let equation = Number(60) / Number(value);
     // this.setState({ typingState: e.target.value, hourState: equation  });
